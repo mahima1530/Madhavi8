@@ -1,9 +1,13 @@
 package HOMEWORK_8;
+/*22. Multilevel Inheritance Example(Create package name ‘multilevelinheritance23’ and
+create all below classes in this package)
 
-abstract class Animal {
+ */
+
+ class Animal {
     // 1. First class
 
-         public void eat(){System.out.println("eating...");}
+         public void eat(){System.out.println("eating...");}}
 
 //2. Second class
      class Dog extends Animal{
@@ -12,11 +16,9 @@ abstract class Animal {
 //3. Third class
  class BabyDog extends Dog{
          public void weep(){System.out.println("weeping...");}
-     }
-//4. Forth class
-static class TestInheritance2{
-         public static void main(String args[]){
-
-         }}
 
 }
+
+
+
+

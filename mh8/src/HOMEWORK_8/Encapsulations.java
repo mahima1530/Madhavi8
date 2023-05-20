@@ -1,5 +1,8 @@
 package HOMEWORK_8;
+/*26. Encapsulations example (Create package name ‘encapsulation26’ and create all
+below classes in this package)
 
+ */
 class Encapsulations {
 
 
@@ -44,15 +47,6 @@ class Encapsulations {
         // set method for age to access private variable age
         public void setAge(int age) {
             this.age = age;
-        }
-        public static class TestEncapsulation {
-            public static void main(String[] args) {
+        }}
 
 
-// Direct access of rollNo is not possible due to
-
-// System.out.println("CodeBuster rollNo
-            }
-        }
-
-}

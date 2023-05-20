@@ -1,9 +1,11 @@
 package HOMEWORK_8;
 
+/*25. Example of Constructor Overloading
+
+ */
 
 
-
- abstract class Student {
+  class Student {
     //Java program to overload constructors
     static class Student5{
         int id;
@@ -20,9 +22,13 @@ package HOMEWORK_8;
             name = n;
             age=a;
         }
-        public void display(){System.out.println(id+" "+name+" "+age);}
+        public void display(){System.out.println(id+" "+name+" "+age);}}
         public static void main(String args[]){
+            Student5 s1 = new Student5(111,"Karan");
+            Student5 s2 = new Student5(222,"Aryan",25);
+            s1.display();
+            s2.display();
 
         }
     }
-}
+
